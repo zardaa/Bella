@@ -15,11 +15,9 @@ const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
     A187: '🚀Bella🚀',
-    instagram: 'https://instagram.com/_sadboy.ig',
-    nomer: 'wa.me/6285722553839',
+    instagram: 'https://instagram.com/ridwan._.anugrah',
+    nomer: 'wa.me/6282397075810',
     aktif: '24 JAM',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg',
-    whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -119,7 +117,7 @@ const client = new WAConnection()
 
 client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(`[ ${time} ] QR code is ready, subscribe Aris187 ID`)
+   console.log(`[ ${time} ] QR code is ready, selamat mencoba`)
 })
 
 client.on('credentials-updated', () => {
